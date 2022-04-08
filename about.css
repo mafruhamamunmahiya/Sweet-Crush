@@ -1,0 +1,79 @@
+/*common code start */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+}
+
+html{
+     background-color: blanchedalmond;
+     font-size: 62.5%;
+     scroll-behavior: smooth;
+     font-family: "Roboto",sans-serif;
+
+
+}
+body{
+    background-color: blanchedalmond;
+    width:120 rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: .1rem .1rem .1rem #c4c4c4,-0.1rem 0rem 0.1rem#c4c4c4;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+     color: black;
+     padding: 2rem 1rem ;
+     position: sticky;
+     top: 0;
+     z-index: 10;
+     min-height: 5vh;
+}
+.name{
+    font-size: 8rem;
+    font-family: "Italianno";
+    margin-left: 6rem;
+    text-shadow: .5rem .2rem gainsboro ;
+    }
+    
+    nav li{
+        display: inline-block;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        transition: all 0.4s;
+    }
+    .nav-link{
+        font-size: 1.8rem;
+        color: black;
+        cursor: pointer;
+        
+    }
+    #about{
+        background-color: white;
+        padding: 10px;
+    }
+
+    .ab1{
+        text-align: center;
+        font-family: "Italianno";
+        font-size: 10rem;
+    }
+
+    p{
+        font-size: 2rem;
+
+    }
+    main{
+        padding: 10px;
+    }
+   
